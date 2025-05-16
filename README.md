@@ -4,15 +4,15 @@ Sistema de Control de Estacionamiento
 *Tecnologías utilizadas*
 
 -Backend 
-(Node.js + Express)
+(Node.js + Express):
   -Express.js
   -MySQL
   -Node.js
   -Axios
   -Model-View-Controller
 
--Frontend 
-(Next.js con TypeScript)
+-Frontend
+(Next.js con TypeScript):
   -Next.js (App Router)
   -React
   -Tailwind CSS
