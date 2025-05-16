@@ -46,7 +46,7 @@ Para poder ejecutar correctamente el servidor:
   npm install
   node app.js
 
-#El servidor se ejecuta en http://localhost:3001#
+# El servidor se ejecuta en http://localhost:3001 #
 
 Configuración del frontend
 *Requisitos*
@@ -58,7 +58,7 @@ Configuración del frontend
   npm install
   npm run dev
   
-#Se ejecuta en http://localhost:3000#
+# Se ejecuta en http://localhost:3000 #
 
 Desde la interfaz se puede seleccionar un rango de fechas (opcional) y exportar los resultados del reporte como archivo .xlsx.
 
