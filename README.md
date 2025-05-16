@@ -5,35 +5,39 @@ Sistema de Control de Estacionamiento
 
 -Backend 
 (Node.js + Express):
-  -Express.js
-  -MySQL
-  -Node.js
-  -Axios
-  -Model-View-Controller
+ 
+  Express.js, MySQL, Node.js, Axios, Model-View-Controller, CORS
 
 -Frontend
 (Next.js con TypeScript):
-  -Next.js (App Router)
-  -React
-  -Tailwind CSS
-  -Axios
-  -xlsx + file-saver
 
-Funcionalidades principales
+Next.js (React), Tailwind CSS, Axios, xlsx + file-saver
 
-Gestión de Vehículos
+*Funcionalidades principales*
+
+Gestión de Vehículos:
+
   -Registrar entrada de vehículo con tipo y placa.
-  -Registrar salida por placa (detecta si está dentro).
+  
+  -Registrar salida por placa.
+  
   -Lista y tabla con historial completo de entradas/salidas.
 
-Reporte
+Reporte:
+
   -Tabla general con información de vehículos registrados.
+  
   -Filtro por fecha de entrada.
+  
   -Exportación a Excel del reporte.
+  
 
 Para poder ejecutar correctamente el servidor:
+
 *Requisitos*
+
   -Node.js v18+
+  
   -MySQL
 
 *Configuración de base de datos*
@@ -41,21 +45,31 @@ Para poder ejecutar correctamente el servidor:
   proyecto se encuentra un archivo ".sql" que tiene por nombre "parking_system" el cual solo es necesario importar.
 
 *Instalación y ejecución*
+
   Una vez configurado el entorno, en una terminal es necesario ejecutar los siguientes comandos:
+  
   -cd server
+  
   -npm install
+  
   -node app.js
 
   El servidor se ejecuta en http://localhost:3001
 
 Configuración del frontend
+
 *Requisitos*
+
   -Node.js
+  
   -Next.js
 
 *Instalación y ejecución*
+
   -cd parking-front
+  
   -npm install
+  
   -npm run dev
   
   Se ejecuta en http://localhost:3000 
